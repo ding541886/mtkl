@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "export_time": "2025-12-05T22:59:35.471920",
+    "total_area": 300,
+    "room_count": 6,
+    "generation_id": 0
+  },
+  "layout": {
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 20,
+      "height": 15
+    },
+    "rooms": [
+      {
+        "type": "living_room",
+        "bounds": {
+          "x": 2,
+          "y": 2,
+          "width": 8,
+          "height": 6
+        },
+        "area": 48,
+        "utilization_rate": 0.0,
+        "furniture": [],
+        "doors": [
+          {
+            "x": 8,
+            "y": 4,
+            "width": 0.8,
+            "height": 0.1
+          }
+        ],
+        "windows": [
+          {
+            "x": 2,
+            "y": 2,
+            "width": 2,
+            "height": 0.2
+          }
+        ]
+      },
+      {
+        "type": "bedroom",
+        "bounds": {
+          "x": 12,
+          "y": 2,
+          "width": 6,
+          "height": 5
+        },
+        "area": 30,
+        "utilization_rate": 0.0,
+        "furniture": [],
+        "doors": [
+          {
+            "x": 16,
+            "y": 6,
+            "width": 0.8,
+            "height": 0.1
+          }
+        ],
+        "windows": [
+          {
+            "x": 12,
+            "y": 2,
+            "width": 2,
+            "height": 0.2
+          }
+        ]
+      },
+      {
+        "type": "bedroom",
+        "bounds": {
+          "x": 12,
+          "y": 8,
+          "width": 6,
+          "height": 5
+        },
+        "area": 30,
+        "utilization_rate": 0.0,
+        "furniture": [],
+        "doors": [
+          {
+            "x": 16,
+            "y": 10,
+            "width": 0.8,
+            "height": 0.1
+          }
+        ],
+        "windows": [
+          {
+            "x": 12,
+            "y": 8,
+            "width": 2,
+            "height": 0.2
+          }
+        ]
+      },
+      {
+        "type": "kitchen",
+        "bounds": {
+          "x": 2,
+          "y": 8,
+          "width": 5,
+          "height": 4
+        },
+        "area": 20,
+        "utilization_rate": 0.0,
+        "furniture": [],
+        "doors": [
+          {
+            "x": 5,
+            "y": 10,
+            "width": 0.8,
+            "height": 0.1
+          }
+        ],
+        "windows": [
+          {
+            "x": 2,
+            "y": 8,
+            "width": 1,
+            "height": 0.2
+          }
+        ]
+      },
+      {
+        "type": "bathroom",
+        "bounds": {
+          "x": 8,
+          "y": 8,
+          "width": 3,
+          "height": 3
+        },
+        "area": 9,
+        "utilization_rate": 0.0,
+        "furniture": [],
+        "doors": [
+          {
+            "x": 8,
+            "y": 10,
+            "width": 0.8,
+            "height": 0.1
+          }
+        ],
+        "windows": []
+      },
+      {
+        "type": "dining_room",
+        "bounds": {
+          "x": 8,
+          "y": 2,
+          "width": 3,
+          "height": 4
+        },
+        "area": 12,
+        "utilization_rate": 0.0,
+        "furniture": [],
+        "doors": [
+          {
+            "x": 10,
+            "y": 4,
+            "width": 0.8,
+            "height": 0.1
+          }
+        ],
+        "windows": []
+      }
+    ],
+    "hallways": []
+  },
+  "evaluation": {
+    "spaceefficiency": {
+      "score": 0.7431111111111111,
+      "weight": 0.25,
+      "weighted_score": 0.18577777777777776
+    },
+    "lighting": {
+      "score": 0.261235652530948,
+      "weight": 0.2,
+      "weighted_score": 0.0522471305061896
+    },
+    "ventilation": {
+      "score": 0.4966666666666667,
+      "weight": 0.15,
+      "weighted_score": 0.0745
+    },
+    "circulation": {
+      "score": 0.8248029144657727,
+      "weight": 0.2,
+      "weighted_score": 0.16496058289315454
+    },
+    "comfort": {
+      "score": 0.8521166908159976,
+      "weight": 0.2,
+      "weighted_score": 0.17042333816319954
+    },
+    "total": {
+      "score": 0.6479088293403215,
+      "weight": 1.0,
+      "weighted_score": 0.6479088293403215
+    }
+  }
+}

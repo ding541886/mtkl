@@ -1,0 +1,77 @@
+{
+  "application": {
+    "name": "蒙特卡洛住宅自动化生成及优化系统",
+    "version": "1.0.0",
+    "author": "住宅自动化开发团队",
+    "description": "基于蒙特卡洛算法的智能化住宅平面图生成和优化系统"
+  },
+  "ui": {
+    "theme": "default",
+    "language": "zh_CN",
+    "window_size": {
+      "width": 1400,
+      "height": 900
+    },
+    "auto_save": true,
+    "remember_settings": true
+  },
+  "optimization": {
+    "default_iterations": 1000,
+    "default_population": 50,
+    "max_concurrent_threads": 4,
+    "timeout_seconds": 300
+  },
+  "visualization": {
+    "default_dpi": 300,
+    "grid_enabled": true,
+    "auto_refresh": true,
+    "animation_enabled": true
+  },
+  "export": {
+    "default_format": "PNG",
+    "output_directory": "./exports",
+    "auto_increment_filename": true,
+    "include_metadata": true
+  },
+  "presets": {
+    "small_apartment": {
+      "name": "小户型公寓",
+      "description": "适用于30-60平方米的小户型",
+      "total_area": { "min": 30, "max": 60 },
+      "rooms": {
+        "living_room": { "min": 1, "max": 1 },
+        "bedroom": { "min": 1, "max": 1 },
+        "kitchen": { "min": 1, "max": 1 },
+        "bathroom": { "min": 1, "max": 1 }
+      }
+    },
+    "standard_house": {
+      "name": "标准住宅",
+      "description": "适用于80-120平方米的标准户型",
+      "total_area": { "min": 80, "max": 120 },
+      "rooms": {
+        "living_room": { "min": 1, "max": 1 },
+        "bedroom": { "min": 2, "max": 3 },
+        "kitchen": { "min": 1, "max": 1 },
+        "bathroom": { "min": 1, "max": 2 },
+        "dining_room": { "min": 0, "max": 1 },
+        "study": { "min": 0, "max": 1 }
+      }
+    },
+    "large_house": {
+      "name": "大户型",
+      "description": "适用于150平方米以上的大户型",
+      "total_area": { "min": 150, "max": 300 },
+      "rooms": {
+        "living_room": { "min": 1, "max": 2 },
+        "bedroom": { "min": 3, "max": 5 },
+        "kitchen": { "min": 1, "max": 2 },
+        "bathroom": { "min": 2, "max": 4 },
+        "dining_room": { "min": 1, "max": 1 },
+        "study": { "min": 1, "max": 2 },
+        "balcony": { "min": 1, "max": 3 },
+        "storage": { "min": 1, "max": 2 }
+      }
+    }
+  }
+}
